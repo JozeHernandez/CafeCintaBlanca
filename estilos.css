@@ -1,0 +1,68 @@
+/* Titulos */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* Texto */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+/* font-family: 'Montserrat', sans-serif; */
+
+/* ------------------------------------------------  Nav --------------------------------------------*/
+a.navbar-brand{
+    padding-left: 50px;
+}
+.navOption{
+    color: #0071b9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 0px 20px;
+    
+}
+.navOption:hover{
+    color: #13a4ff;
+    text-decoration: none;
+}
+.barOptions{
+    padding: 0px 50px;
+    display: flex;
+    /* horizontalmente eje x */
+    justify-content: flex-end;
+    /* verticalmente eje Y */
+    /* align-items:flex-end; */
+    /* Direccion de mis elementos en el eje X row eje Y colum  */
+    flex-direction: row;
+}
+.redes{
+    margin: 0px 20px;
+    height: 100%;
+    width: 25px;
+}
+.iconRedes{
+    height: 100%;
+}
+/* -------------------------------------------    FIN NAV   -------------------------------------- */
+
+/* -------------------------------------------    CAROUSEL  -------------------------------------- */
+.slideCafe{
+    height: 86.9vh;
+    width: 100px;
+    
+}
+.textoCarousel{
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.493); 
+}
+.centerCarousel{
+    display: flex;
+    /* horizontalmente eje x */
+    justify-content: space-around;
+    /* verticalmente eje Y */
+    align-items: center;
+    /* Direccion de mis elementos en el eje X row eje Y colum  */
+    flex-direction: column;
+}
+.carousel{
+    width: 90%;
+}
+/* -------------------------------------------  FIN CAROUSEL ------------------------------------ */
+
+
