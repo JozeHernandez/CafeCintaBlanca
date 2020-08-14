@@ -6,6 +6,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
 /* font-family: 'Montserrat', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Libre+Caslon+Display&display=swap');
+/* font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Libre Caslon Display', serif; */
 /* ------------------------------------------------  Nav --------------------------------------------*/
 a.navbar-brand{
     padding-left: 50px;
@@ -43,8 +46,8 @@ a.navbar-brand{
 
 /* -------------------------------------------    CAROUSEL  -------------------------------------- */
 .slideCafe{
-    height: 86.9vh;
-    width: 100px;
+    height: 88.4vh;
+
     
 }
 .textoCarousel{
@@ -64,5 +67,32 @@ a.navbar-brand{
     width: 90%;
 }
 /* -------------------------------------------  FIN CAROUSEL ------------------------------------ */
-
-
+.productoresMex{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.productoresTittle{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 40px;
+}
+.cardProductoresTittle {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 25px;
+}
+.card-text{
+    font-family: 'Baloo Tamma 2', cursive;
+    text-align: justify;  
+}
+.cardProductores{
+    display: flex;
+    /* horizontalmente eje x */
+    justify-content: space-around;
+    /* verticalmente eje Y */
+    align-items: center;
+    /* Direccion de mis elementos en el eje X row eje Y colum  */
+    flex-direction: row;
+}
+.productores{
+    width: 80%;
+}
